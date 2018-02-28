@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "630889076897",
+    "firebase_url": "https://jaevip-cd192.firebaseio.com",
+    "project_id": "jaevip-cd192",
+    "storage_bucket": "jaevip-cd192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630889076897:android:0e235e72c4796d18",
+        "android_client_info": {
+          "package_name": "jaevip.com.jaevip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630889076897-ce4ninf77797c8l3ss3la14ngbb3sgca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jaevip.com.jaevip",
+            "certificate_hash": "008060b2a760f1e50602f391347a3baf5c73e5c3"
+          }
+        },
+        {
+          "client_id": "630889076897-5i21uccecqli1lssu14j8p4otk8rf601.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3dXSe82WV1GSxD5-WMfZaaW5QK3El5s8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630889076897-5i21uccecqli1lssu14j8p4otk8rf601.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
