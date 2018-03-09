@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="activity.CadastroUsuarioActivity"
+    android:background="@android:color/white"
+    android:gravity="center_vertical|center_horizontal">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/edit_cadastro_nome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/image_logo"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Nome:"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/edit_cadastro_endereco"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_cadastro_nome"
+        android:ems="10"
+        android:hint="Endereço:"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/edit_cadastro_cidade"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_cadastro_endereco"
+        android:ems="10"
+        android:hint="Cidade:"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/edit_cadastro_estado"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_cadastro_cidade"
+        android:ems="10"
+        android:hint="Estado:"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/edit_cadastro_cep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_cadastro_estado"
+        android:ems="10"
+        android:hint="Cep:"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/edit_cadastro_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_cadastro_cep"
+        android:ems="10"
+        android:hint="E-mail:"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/edit_cadastro_senha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_cadastro_email"
+        android:ems="10"
+        android:hint="Senha:"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColorLink="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/id_bt_cadastrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_cadastro_senha"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bt_cadastrar" />
+
+
+</RelativeLayout>

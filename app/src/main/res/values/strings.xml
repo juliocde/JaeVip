@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">JaeVip</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_cadastro_usuario">CadastroUsuarioActivity</string>
+    <string name="title_activity_tela_principal">PrincipalActivity</string>
 </resources>
